@@ -1,0 +1,19 @@
+{
+  "name": "js-practico",
+  "version": "1.0.0",
+  "description": "platzi curso js practico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutioluis/platzi-JsPractico.git"
+  },
+  "author": "cutioluis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cutioluis/platzi-JsPractico/issues"
+  },
+  "homepage": "https://github.com/cutioluis/platzi-JsPractico#readme"
+}
