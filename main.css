@@ -1,9 +1,14 @@
 :root {
   --pl-bg: #1e0338;
+  --pl-green-pr: #89B442;
+  /* Ask Color */
+  --pl-primary-button: #CE60A5;
+  --pl-secundary-button: #9F4DAF;
+
   --pl-bg-footer: linear-gradient(180deg, #A04EAF 0%, #BC59A9 100%);;
   /* Cards  */
   --plg-gradient-title: linear-gradient(180deg, #ce60a5 0%, #9f4daf 100%);
-  --plg-gradient-00: linear-gradient(144.12deg, #fc58b3 11.61%, #feae68 100%);
+  --plg-gradient-00: linear-gradient(144.12deg, #fc58b3 11.61%,  #feae68 100%);
   --plg-gradient-01: linear-gradient(144.12deg, #916cff 11.61%, #70bcfb 100%);
   --plg-gradient-02: #f2f2f2;
   /* properties */
@@ -65,7 +70,7 @@ nav ul li a:hover {
 }
 
 .platzi_title {
-  font-size: 50px;
+  font-size: 80px;
   background: var(--plg-gradient-title);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
