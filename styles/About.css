@@ -1,0 +1,64 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-left {
+  margin: 20px;
+  max-width: 600px;
+}
+
+.about-rigth {
+  margin: 20px;
+}
+
+.about_button {
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 80px;
+  border: none;
+  background: var(--pl-primary-button);
+  border-radius: var(--plg-round);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.about_button:hover {
+    transition: 150ms;
+    background: none;
+    border: 1px solid var(--pl-primary-button);
+}
+
+.about_id {
+  color: var(--pl-green-pr);    
+}
+
+
+.faq {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq_md {
+    border-radius: var(--plg-round);
+    width: 100vh;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.faq .faq_summary-01  {
+    background: var(--pl-primary-button);
+}
+
+
+.faq .faq_summary-02  {
+    background: var(--pl-secundary-button);
+}
+
+a {
+    color: white;
+}
