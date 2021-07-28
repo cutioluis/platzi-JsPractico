@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./styles/form.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/About.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -18,58 +19,53 @@
     <header>
         <nav>
             <ul>
-                <a href="/"><img src="./assets/pl-logo.png" alt="" class="Pltazi Math" /></a>
+                <a href="/index.html"> <img src="/assets/pl-logo.png" alt="" class="Pltazi Math" /></a>
             </ul>
             <ul class="">
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="./About.html">About us</a></li>
+                <li><a href="/About.html">About us</a></li>
                 <a href="https://github.com/cutioluis/platzi-JsPractico"> <img src="./assets/pl-github.png"
                         alt="Git Hub"></a>
             </ul>
         </nav>
-        <section class="header">
-            <h1 class="platzi_title">Figuras </h1>
-        </section>
     </header>
+    <!--  -->
     <main>
+        <section class="header">
+            <h1 class="platzi_title">Descuentos</h1>
+        </section>
         <section class="form">
             <form action="">
                 <label class="form_title" for="InputCuadrado">
-                    ¿Que figura Deseas Calcular?
+                    Escribe el precio del producto
+                    <br>
+                    <input class="form_cuadrado" id="InputPrice" type="number">
                 </label>
-                <br>
-                    <button class="form_btn-type type-cuadrado">Cuadrado</button>
-                    <button class="form_btn-type">Circulo</button>
                 <br>
                 <label class="form_title" for="InputCuadrado">
-                    Escribe cuanto miden cada lado de tu cuadrado :
+                    Escribe el descuento de tu producto
+                    <br>
+                    <input class="form_cuadrado" id="InputDiscount" type="number">
                 </label>
                 <br>
-                <input class="form_cuadrado" id="InputCuadrado" type="number">
-                <!-- Perimetro -->
+                <button class="form_btn-perimetro form_btn" type="button" onclick="calcDiscountPrice()">Calcular el
+                    descuento</button>
+                <p id="ResultPrice"></p>
                 <br>
-                <button class="form_btn-perimetro form_btn" type="button" onclick="calcularPerimetroCuadrado()">Calcular
-                    Perimetro</button>
+                <br>
+                <br>
+                <br>
                 <!-- Area -->
-                <button class="form_btn-area form_btn" type="button" onclick="calcularAreaCuadrado()">Calcular
-                    Area</button>
-                <p id="ResultArea"></p>
-                <p id="ResultPerimetro"></p>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
             </form>
         </section>
     </main>
-
-
+    <!--  -->
     <footer>
         <div class="footer">
             <ul>
                 <li><a href="./About.html">About us</a></li>
                 <li><a href="https://github.com/cutioluis/platzi-JsPractico">Source Code</a></li>
-                <li><a href="/About.html">Teacher</a></li>
+                <li><a href="">Teacher</a></li>
             </ul>
             <ul>
                 <li><a href="">Platzi</a></li>

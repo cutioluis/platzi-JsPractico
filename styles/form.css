@@ -39,6 +39,10 @@
   margin: 20px 10px;
 }
 
+.form_btn:hover {
+    cursor: pointer;
+}
+
 .form_btn-perimetro {
   background: #fd749b;
 }
@@ -67,5 +71,5 @@
 
 
 .type-cuadrado {
-    background: #fd749b;
+    background: #9f4daf;
 }

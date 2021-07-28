@@ -35,6 +35,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +97,8 @@ nav ul li a:hover {
 }
 
 .calculators-md {
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 30px;
     margin: 20px;
     padding: 30px;
     width: 223px;

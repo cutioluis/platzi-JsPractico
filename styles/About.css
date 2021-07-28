@@ -45,7 +45,7 @@
 
 .faq_md {
     border-radius: var(--plg-round);
-    width: 100vh;
+    width: auto;
     margin: 20px 0;
     padding: 30px;
 }
