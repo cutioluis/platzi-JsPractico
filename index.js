@@ -51,40 +51,57 @@ function calcularPerimetroCuadrado(params) {
   const value = input.value;
 
   const perimetro = perimetroCuadrado(value);
-    
-  const ResultPerimetro = document.getElementById("ResultPerimetro")
-  ResultPerimetro.innerText = "El perimetro es " + perimetro
+
+  const ResultPerimetro = document.getElementById("ResultPerimetro");
+  ResultPerimetro.innerText = "El perimetro es " + perimetro;
 }
 function calcularAreaCuadrado(params) {
   const input = document.getElementById("InputCuadrado");
   const value = input.value;
 
   const area = areaCuadrado(value);
-  
-  const ResultArea = document.getElementById("ResultArea")
-  ResultArea.innerText = "El area es " + area
+
+  const ResultArea = document.getElementById("ResultArea");
+  ResultArea.innerText = "El area es " + area;
 }
 
 /* Porcemtajes y Descuentos */
 function calcularPrecioConDescuento(precio, descuento) {
   const porcentajePrecioConDescuento = 100 - descuento;
-  const precioConDescuento =
-    (precio * porcentajePrecioConDescuento) / 100;
-    return precioConDescuento
+  const precioConDescuento = (precio * porcentajePrecioConDescuento) / 100;
+  return precioConDescuento;
 }
 
-calcularPrecioConDescuento(300, 30)
-
+calcularPrecioConDescuento(300, 30);
 
 function calcDiscountPrice(params) {
   const inputPrice = document.getElementById("InputPrice");
-  const priceValue = inputPrice.value
+  const priceValue = inputPrice.value;
 
   const InputDiscount = document.getElementById("InputDiscount");
-  const discountValue = InputDiscount.value
+  const discountValue = InputDiscount.value;
 
-  const precioConDescuento = calcularPrecioConDescuento(priceValue, discountValue)
+  const precioConDescuento = calcularPrecioConDescuento(
+    priceValue,
+    discountValue
+  );
 
-  const ResultPrice = document.getElementById("ResultPrice")
-  ResultPrice.innerText = "El precio con descuento son $" + precioConDescuento
+  const ResultPrice = document.getElementById("ResultPrice");
+  ResultPrice.innerText = "El precio con descuento son $" + precioConDescuento;
 }
+
+/* Validation number */
+function validNumber(e) {
+  let code = e.which ? e.which : e.keyCode;
+  if (code == 8) {
+    return true;
+  } else if (code >= 48 && code <= 57) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
+/* Cupon Discount */
+

@@ -1,0 +1,13 @@
+.form_cupon {
+    height: 60px;
+    border-radius: 10px;
+    padding: 0 30px;
+    border:none;
+    color: white;
+    background-color: var( --pl-secundary-button);
+}
+
+.form_cupon::placeholder {
+    color: rgb(209, 205, 205);
+}
+
